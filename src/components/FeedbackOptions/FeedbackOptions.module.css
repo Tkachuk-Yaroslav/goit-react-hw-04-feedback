@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.btn {
+  transform: scale(1);
+  cursor: pointer;
+  background-color: transparent;
+  border-color: aqua;
+  border-radius: 5px;
+  transition: transform 250ms linear, background-color 250ms linear;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: antiquewhite;
+  transform: scale(1.1);
+}
